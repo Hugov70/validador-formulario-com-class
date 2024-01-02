@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Modelo</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+  <section class="container">
+    <h1>Formulário de cadastro</h1>
+    <div id="erros">
+      
+    </div>
+    
+      <form action="" method="get" id="formulario">
+        <p>
+          <label for="txtnome">Nome:</label> <br>
+          <input type="text" name="txtnome" id="txtnome">
+        </p>
+        <p>
+          <label for="txtsobrenome">Sobrenome:</label><br>
+          <input type="text" name="txtsobrenome" id="txtsobrenome">
+        </p>
+        <p>
+          <label for="inputcpf">Cpf:</label><br>
+          <input type="text" name="inputcpf" id="inputcpf">
+        </p>
+        <p>
+          <label for="txtusuario">Usuário</label><br>
+          <input type="text" name="txtusuario" id="txtusuario">
+        </p>
+        <p>
+          <label for="txtsenha">Senha:</label> <br>
+          <input type="password" name="txtsenha" id="txtsenha">
+        </p>
+        <p>
+          <label for="txtsenharepitida">Repetir senha:</label> <br>
+          <input type="password" name="txtsenharepitida" id="txtsenharepitida">
+        </p>
+        <button type="submit">Enviar</button>
+      </form>
+    
+  </section>
+  <script src="assets/js/validacpf.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
